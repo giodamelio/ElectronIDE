@@ -19,7 +19,7 @@ app.on("window-all-closed", function() {
 app.on("ready", function() {
     mainWindow = new BrowserWindow({width: 800, height: 600});
 
-    mainWindow.loadUrl("file://" + __dirname + "/index.html");
+    mainWindow.loadUrl("file://" + __dirname + "/frontend/index.html");
 
     // Make simple menu
     var menuTemplate = [
